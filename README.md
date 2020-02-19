@@ -18,7 +18,22 @@ composer require codeat3/laravel-1on1-questions
 ## Usage
 
 ``` php
-// Usage description here
+    // to get the list of categories
+    \Laravel1on1Questions::categories();
+
+    // to get the random question
+    \Laravel1on1Questions::random();
+
+    // to get ths list of questions
+    \Laravel1on1Questions::get();
+
+    // to get ths list of questions from particular category
+    $category = 'Job satisfaction';
+    \Laravel1on1Questions::get($category);
+
+    // to get the random question from particular category
+    $category = 'About Manager';
+    \Laravel1on1Questions::random($category);
 ```
 
 ### Testing
