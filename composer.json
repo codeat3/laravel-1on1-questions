@@ -15,11 +15,24 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "v-graupera/1on1-questions",
+                "version": "1.0",
+                "dist": {
+                    "url": "https://github.com/VGraupera/1on1-questions/archive/master.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2",
         "calebporzio/sushi": "^1.1",
         "illuminate/support": "^6.0",
-        "kitetail/zttp": "^0.6.0"
+        "v-graupera/1on1-questions": "^1.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",

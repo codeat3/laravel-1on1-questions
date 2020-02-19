@@ -23,7 +23,8 @@ class Laravel1on1Questions
             ->get();
     }
 
-    public function random($category = null) {
+    public function random($category = null)
+    {
         return $this->get($category)->random();
     }
 }

@@ -12,7 +12,8 @@ class TestCase extends \Orchestra\Testbench\TestCase
         return [Laravel1on1QuestionsServiceProvider::class];
     }
 
-    protected function getPackageAliases($app) {
+    protected function getPackageAliases($app)
+    {
         return [
             'Laravel1on1Questions' => Laravel1on1QuestionsFacade::class,
         ];

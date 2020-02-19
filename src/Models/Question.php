@@ -2,7 +2,6 @@
 
 namespace Codeat3\Laravel1on1Questions\Models;
 
-use Zttp\Zttp;
 use Sushi\Sushi;
 use Illuminate\Database\Eloquent\Model;
 
@@ -16,8 +15,6 @@ class Question extends Model
 
     public function getRows()
     {
-        return Zttp::withHeaders(['User-agent' => 'PHP'])
-            ->get('https://raw.githubusercontent.com/VGraupera/1on1-questions/master/questions.json')
-            ->json();
+        return json_decode(file_get_contents(__DIR__.'/../../vendor/v-graupera/1on1-questions/questions.json'), true);
     }
 }
