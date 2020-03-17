@@ -1,11 +1,11 @@
-# Very short description of the package
+# A laravel package wrapper of '1on1-questions' by 'VGraupera'
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/codeat3/laravel-1on1-questions.svg?style=flat-square)](https://packagist.org/packages/codeat3/laravel-1on1-questions)
 [![Build Status](https://img.shields.io/travis/codeat3/laravel-1on1-questions/master.svg?style=flat-square)](https://travis-ci.org/codeat3/laravel-1on1-questions)
 [![Quality Score](https://img.shields.io/scrutinizer/g/codeat3/laravel-1on1-questions.svg?style=flat-square)](https://scrutinizer-ci.com/g/codeat3/laravel-1on1-questions)
 [![Total Downloads](https://img.shields.io/packagist/dt/codeat3/laravel-1on1-questions.svg?style=flat-square)](https://packagist.org/packages/codeat3/laravel-1on1-questions)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A laravel wrapper package to access the questions and categories from '1on1-questions' repositories by 'VGraupera'.
 
 ## Installation
 
